@@ -1,0 +1,12 @@
+{application, eml_examples,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { eml_examples_app, []}},
+  {env, []}
+ ]}.
